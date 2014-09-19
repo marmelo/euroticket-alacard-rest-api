@@ -5,7 +5,7 @@ The protocol details were inferred from the official Android app APK decompilati
 
 Eager to see this running? Jump to my [example Python implementation](alacard.py).
 
-Before official mobile apps being released the only known way to retrieve this information was to simulate the browser's behaviour using standard HTTP requests along with screen scraping. If you are interested in that version please check my older project [python-alacard](https://github.com/marmelo/python-alacard).
+Before official mobile apps being released the only known way to retrieve this information was to simulate the browser's behaviour using standard HTTP requests along with screen scraping. If you are interested in that version please check my [python-alacard](https://github.com/marmelo/python-alacard) repository.
 
 - [Introduction](#introduction)
 - [Authentication](#authentication)
