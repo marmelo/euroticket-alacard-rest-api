@@ -60,8 +60,8 @@ Content-Type: application/json
 {
   "appId": "5000",
   "appVersion": "1.0.1",
-  "deviceId": "x",
-  "deviceModel": "x",
+  "deviceId": "XXX",
+  "deviceModel": "YYY",
   "osId": "android",
   "osVersion": "4.1.1",
   "language": "pt",
@@ -99,8 +99,8 @@ Content-Type: application/json
 {
   "appId": "5000",
   "appVersion": "1.0.1",
-  "deviceId": "x",
-  "deviceModel": "x",
+  "deviceId": "XXX",
+  "deviceModel": "YYY",
   "osId": "android",
   "osVersion": "4.1.1",
   "language": "pt",
