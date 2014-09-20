@@ -41,7 +41,7 @@ The API calls are standard HTTP POSTs where both request and response consist on
 
 ## Authentication
 
-The autentication request contains not only the mandatory fields but also a `username` and `hashPin`. The `hashPin` is not the password itself but an `HmacSHA256` hash computed from the magic key `JFq7JpxvRoE1XjqTE6qNKfvcddA5V43A` and the concatenation of `deviceId`, `username` and `password`.
+The authentication request contains not only the mandatory fields but also a `username` and `hashPin`. The `hashPin` is not the password itself but an `HmacSHA256` hash computed from the magic key `JFq7JpxvRoE1XjqTE6qNKfvcddA5V43A` and the concatenation of `deviceId`, `username` and `password`.
 
 ```
 HmacSHA256('JFq7JpxvRoE1XjqTE6qNKfvcddA5V43A', 'XXX1111111111111111222222')
@@ -151,7 +151,7 @@ Content-Type: application/json
 
 ## Error Messages
 
-When everithing is fine (no errors):
+When everything is fine (no errors):
 ```JavaScript
 {
   "status": {
